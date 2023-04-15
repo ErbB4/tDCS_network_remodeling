@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.optimize import leastsq
-
 import params
 from params import *
 
@@ -18,6 +17,13 @@ for i in np.arange(0,48,1):
 
     rates = np.array(rates)
     np.save("rates_current_"+str(i)+".npy",rates)
-  
+
+rates_all = []
+for i in np.arange(0,48,1):
+    rate = np.load("rates_current_"+str(i)+".npy")
+    rates_all.append(rate)
+rates_matrix = np.array(rates_all)
+
+np.save("rates_matrix.npy",rates_matrix)  
 
 
