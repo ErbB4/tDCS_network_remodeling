@@ -2,11 +2,10 @@ import numpy as np
 from scipy.optimize import leastsq
 
 import params
-reload (params)
 from params import *
 
 angles = np.arange(0.,2.*np.pi+1/96.*np.pi,1/96.*np.pi)
-for i in np.arange(30,48,1):
+for i in np.arange(0,48,1):
     rates = []
     for ang in angles:
         extension = 'angle_'+str(ang)+'_current_'+str(i)+".npy"
