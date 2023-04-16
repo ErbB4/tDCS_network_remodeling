@@ -1,6 +1,6 @@
 import numpy as np
 
-N = 1000
+N = 1000 # the subpopulation size that you want to stimulate
 
 # Parameter of the simulation
 dt                      = 0.1
