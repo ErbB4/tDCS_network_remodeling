@@ -1,1 +1,1 @@
-In this experiment, we stimulated a subpopulation of 1000 excitatory neurons with negative DC injection.
+In this experiment, we stimulated a subpopulation of 1000 excitatory neurons with negative DC injection. We just chanegd the DC injection from positive to negative current using the code in ../positive/.
