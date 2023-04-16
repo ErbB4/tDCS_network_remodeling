@@ -62,4 +62,3 @@ plt.ylim(0.08,0.16)
 
 
 plt.show()
-
